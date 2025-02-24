@@ -1,3 +1,18 @@
+html,
+body {
+  margin: o;
+  padding: o;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+/* bu navbar frame har bir pageda ishladiladi */
 .navbar_frame {
   position: relative;
   width: 100%;
@@ -242,7 +257,7 @@
 
 .navbar_bot_menu_box .navbar_route_menu {
   margin-left: 12px;
-  margin-right: 260px;
+  margin-right: 349px;
   width: auto;
   height: 40px;
 
@@ -276,6 +291,7 @@
 
 .navbar_bot_menu_box .sorting_menu {
   /* margin-left: 300px; */
+  width: 100%;
   display: flex;
   flex-direction: row;
 }
