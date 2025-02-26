@@ -216,7 +216,7 @@
 }
 
 .navbar_frame .navbar_bot_menu_box .browse_box {
-  width: 185px;
+  width: 500px;
   height: 30px;
 
   display: flex;
@@ -233,7 +233,7 @@
 }
 
 .navbar_frame .browse_box span {
-  margin-right: 57px;
+  /* margin-right: 57px; */
   font-family: "jost";
   font-style: normal;
   font-weight: 500;
@@ -244,12 +244,14 @@
 
 .navbar_frame .navbar_bot_menu_box .navbar_route_menu {
   margin-left: 8px;
-  margin-right: 294px;
+  margin-right: 280px;
   width: auto;
   height: 40px;
 
   display: flex;
   flex-direction: row;
+
+  /* border-left: 1px solid #5746a1; */
 }
 
 .navbar_frame .navbar_route_menu .router_menu {
@@ -512,4 +514,98 @@
   font-size: 15px;
   line-height: 22px;
   color: #626974;
+}
+
+/* sell frame */
+.sell_frame {
+  margin-top: 90px;
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  /* background-color: yellow; */
+}
+
+.sell_frame .container {
+  flex-direction: column;
+  /* background-color: yellow; */
+}
+
+.sell_frame .container .sell_box_top {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.sell_frame .sell_box_top h1 {
+  font-family: "jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  color: #041e42;
+}
+
+.sell_frame .sell_box_top a {
+  margin-bottom: 45px;
+  font-family: "jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #041e42;
+}
+
+.sell_frame .sell_box_top a:hover {
+  border-bottom: 2px solid #041e42;
+}
+
+.sell_frame .container .sell_box_bot {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sell_frame .sell_box_bot .sell_box_bot_material {
+  width: 142px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.sell_frame .sell_box_bot_material .sell_box_bot_img {
+  width: 100%;
+  height: 150px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #eaeaea;
+  border-radius: 50%;
+}
+
+.sell_frame .sell_box_bot_material span {
+  margin-top: 20px;
+  font-family: "jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+
+  text-align: center;
+
+  color: #041e42;
 }

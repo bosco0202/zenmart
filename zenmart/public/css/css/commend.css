@@ -12,6 +12,15 @@ p {
   margin: 0;
 }
 
+.container {
+  position: relative;
+  padding: 20px 0px 14px;
+  width: 1320px;
+  height: auto;
+  display: flex;
+  /* flex-direction: column; */
+}
+
 /* bu navbar frame har bir pageda ishladiladi */
 .navbar_frame {
   position: relative;
