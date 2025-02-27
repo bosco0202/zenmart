@@ -11,6 +11,39 @@ a {
 p {
   margin: 0;
 }
+/* saxifalik */
+/* .sell_frame .container .sell_box_top {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.sell_frame .sell_box_top h1 {
+  font-family: "jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  color: #041e42;
+}
+
+.sell_frame .sell_box_top a {
+  margin-bottom: 45px;
+  font-family: "jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #041e42;
+}
+
+.sell_frame .sell_box_top a:hover {
+  border-bottom: 2px solid #041e42;
+} */
 
 .container {
   position: relative;
