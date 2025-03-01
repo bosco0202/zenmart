@@ -297,6 +297,8 @@
 /* homepage start */
 
 .homepage {
+  width: 1920px;
+  height: auto;
   display: flex;
   flex-direction: column;
 }
@@ -852,4 +854,34 @@
   width: 4px;
   height: 4px;
   background-color: #112137;
+}
+
+/*  adv  farame qismi */
+.home_page .adv_frame {
+  margin-top: 90px;
+  width: 100%;
+  height: 120px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5edff;
+}
+
+.home_page .adv_frame .container {
+  width: 1113px;
+  height: 26px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home_page .adv_frame a {
+  font-family: "jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #0053f6;
 }
