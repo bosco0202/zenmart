@@ -88,9 +88,15 @@ p {
   flex-direction: column;
 }
 
+.home_page {
+  padding: bottom 60px;
+  display: flex;
+  flex-direction: column;
+}
+
 .container .category_top {
-  width: 1320px;
-  height: 40px;
+  width: 100%;
+  height: auto;
 
   display: flex;
   flex-direction: row;
@@ -98,7 +104,7 @@ p {
   align-items: center;
 }
 
-.category_top strong {
+.container .category_top strong {
   font-family: "jost";
   font-style: normal;
   font-weight: 500;
@@ -107,7 +113,13 @@ p {
   color: #041e42;
 }
 
-.category_top span {
+.container .category_top div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container .category_top span {
   margin-bottom: 35px;
   font-family: "jost";
   font-style: normal;
@@ -117,8 +129,98 @@ p {
   color: #041e42;
 }
 
-.category_top span:hover {
+.container .category_top a {
+  margin-left: 30px;
+  font-family: "jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  text-transform: capitalize;
+
+  color: #041e42;
+}
+
+.container .category_top a:hover {
   border-bottom: 2px solid #041e42;
+}
+
+/* next prev box */
+.container .product_wrapper_next_box {
+  width: 50px;
+  top: 50%;
+}
+
+.container .product_wrapper_next_box img {
+  position: absolute;
+  width: 50px;
+  top: 50%;
+  margin-left: -20px;
+  cursor: pointer;
+}
+
+/* product card narxlari yulduzlari */
+.container .product_content_box {
+  padding: 5px 22px;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.container .product_content_box .product_title {
+  font-family: "jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #626974;
+}
+
+.container .product_content_box .product_desc {
+  margin-top: 7px;
+  font-family: "jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #041e42;
+}
+
+.container .product_content_box .review_box {
+  margin-top: 7px;
+  width: 157px;
+  height: 22px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.container .product_box .price_box {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container .price_box strong {
+  font-family: "jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #041e42;
+}
+
+.container .price_box small {
+  margin-left: 10px;
+  font-family: "jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-decoration-line: line-through;
+  color: #041e42;
 }
 
 /* saxifalik */
@@ -164,7 +266,7 @@ p {
   /* flex-direction: column; */
 }
 
-/* bu navbar frame har bir pageda ishladiladi */
+/* navbar qismi */
 .navbar_frame {
   position: relative;
   width: 100%;
@@ -175,7 +277,7 @@ p {
   background-color: #443297;
 }
 
-.container {
+.navbar_frame .container {
   position: relative;
   padding: 20px 0px 14px;
   width: 1320px;
@@ -184,7 +286,7 @@ p {
   flex-direction: column;
 }
 
-.navbar_top {
+.navbar_frame .navbar_top {
   width: 100%;
   height: 50px;
 
@@ -194,13 +296,13 @@ p {
   /* background-color: red; */
 }
 
-.navbar_top > a img {
+.navbar_frame.navbar_top > a img {
   width: 117px;
   margin-right: 76px;
   height: 36px;
 }
 
-.navbar_top .nav_search_frame {
+.navbar_frame .navbar_top .nav_search_frame {
   width: 650px;
   height: 50px;
 
@@ -210,7 +312,7 @@ p {
   background-color: white;
 }
 
-.navbar_top .search_box {
+.navbar_frame .navbar_top .search_box {
   padding: 10px 17px;
   width: auto;
   height: auto;
@@ -220,7 +322,7 @@ p {
   align-items: center;
 }
 
-.search_box .category_list {
+.navbar_frame .search_box .category_list {
   width: 166px;
   height: 30px;
 
@@ -231,7 +333,7 @@ p {
   align-items: center;
 }
 
-.category_list select {
+.navbar_frame .category_list select {
   width: 140px;
   height: 30px;
 
@@ -246,7 +348,7 @@ p {
   color: #041e42;
 }
 
-.search_box input {
+.navbar_frame .search_box input {
   margin-left: 12px;
   width: 387px;
   height: 22px;
@@ -262,7 +364,7 @@ p {
   color: #626974;
 }
 
-.nav_search_frame .search_icon_box {
+.navbar_frame .nav_search_frame .search_icon_box {
   width: 50px;
   height: 50px;
 
@@ -273,12 +375,12 @@ p {
   border-radius: 0px 6px 0px 6px;
 }
 
-.search_icon_box {
+.navbar_frame .search_icon_box {
   width: 20px;
   height: 20px;
 }
 
-.navbar_top .nav_top_menu {
+.navbar_frame .navbar_top .nav_top_menu {
   margin-left: 59px;
   width: 416px;
   height: 50px;
@@ -288,14 +390,14 @@ p {
   justify-content: space-between;
 }
 
-.nav_top_menu .top_menu_box {
+.navbar_frame .nav_top_menu .top_menu_box {
   display: flex;
   flex-direction: row;
   align-items: center;
   cursor: pointer;
 }
 
-.top_menu_box .box_icon_box {
+.navbar_frame .top_menu_box .box_icon_box {
   position: relative;
   margin-right: 16px;
   width: 54px;
@@ -309,17 +411,17 @@ p {
   border-radius: 6px;
 }
 
-.box_icon_box img {
+.navbar_frame .box_icon_box img {
   width: 22px;
   height: 22px;
 }
 
-.top_menu_box .box_info_box {
+.navbar_frame .top_menu_box .box_info_box {
   display: flex;
   flex-direction: column;
 }
 
-.box_info_box span {
+.navbar_frame .box_info_box span {
   font-family: "jost";
   font-style: normal;
   font-weight: 400;
@@ -328,7 +430,7 @@ p {
   color: #ffffff;
 }
 
-.box_info_box strong {
+.navbar_frame .box_info_box strong {
   font-family: "jost";
   font-style: normal;
   font-weight: 500;
@@ -337,7 +439,7 @@ p {
   color: #ffffff;
 }
 
-.box_icon_box .basket_count {
+.navbar_frame .box_icon_box .basket_count {
   position: absolute;
   width: 15px;
   height: 15px;
@@ -359,7 +461,8 @@ p {
 
   color: #0b1e40;
 }
-.navbar_bot {
+
+.navbar_frame .navbar_bot {
   margin-top: 20px;
   width: 100%;
   height: 40px;
@@ -371,7 +474,7 @@ p {
   /* background-color: blue; */
 }
 
-.navbar_bot .navbar_bot_menu_box {
+.navbar_frame .navbar_bot .navbar_bot_menu_box {
   margin-top: 10px;
   width: auto;
   height: auto;
@@ -381,8 +484,8 @@ p {
   /* align-items: center; */
 }
 
-.navbar_bot_menu_box .browse_box {
-  width: 185px;
+.navbar_frame .navbar_bot_menu_box .browse_box {
+  width: 500px;
   height: 30px;
 
   display: flex;
@@ -392,13 +495,14 @@ p {
   border-right: 1px solid #5746a1;
 }
 
-.browse_box img {
+.navbar_frame .browse_box img {
   margin-right: 10px;
   width: 20px;
   height: 18px;
 }
 
-.browse_box span {
+.navbar_frame .browse_box span {
+  /* margin-right: 57px; */
   font-family: "jost";
   font-style: normal;
   font-weight: 500;
@@ -407,17 +511,19 @@ p {
   color: #ffffff;
 }
 
-.navbar_bot_menu_box .navbar_route_menu {
-  margin-left: 12px;
-  margin-right: 349px;
+.navbar_frame .navbar_bot_menu_box .navbar_route_menu {
+  margin-left: 8px;
+  margin-right: 280px;
   width: auto;
   height: 40px;
 
   display: flex;
   flex-direction: row;
+
+  /* border-left: 1px solid #5746a1; */
 }
 
-.navbar_route_menu .router_menu {
+.navbar_frame .navbar_route_menu .router_menu {
   margin-right: 20px;
   width: auto;
   height: 41px;
@@ -427,7 +533,7 @@ p {
   /* align-items: center; */
 }
 
-.router_menu a {
+.navbar_frame .router_menu a {
   margin-left: 20px;
   font-family: "jost";
   font-style: normal;
@@ -437,18 +543,17 @@ p {
   color: #ffffff;
 }
 
-.router_menu a.active {
+.navbar_frame .router_menu a.active {
   color: #f5c34b;
 }
 
-.navbar_bot_menu_box .sorting_menu {
-  /* margin-left: 300px; */
+.navbar_frame .navbar_bot_menu_box .sorting_menu {
   width: 100%;
   display: flex;
   flex-direction: row;
 }
 
-.sorting_menu span {
+.navbar_frame .sorting_menu span {
   margin-right: 20px;
   font-family: "jost";
   font-style: normal;
