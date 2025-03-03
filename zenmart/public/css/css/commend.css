@@ -63,7 +63,24 @@ p {
   background-color: #112137;
 }
 
+.hover_border {
+  margin-top: 3px;
+  width: 32px;
+  height: 2px;
+
+  background-color: #041e42;
+}
+
 /* cotegory top avza boshida 2 chetgan joyash */
+.selling_product_frame {
+  width: 100%;
+  height: auto;
+  margin-top: 60px;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+}
 .selling_product_frame .container {
   width: 1320px;
   height: 576px;
@@ -71,8 +88,8 @@ p {
   flex-direction: column;
 }
 
-.selling_product_frame .container .category_top {
-  width: 1253px;
+.container .category_top {
+  width: 1320px;
   height: 40px;
 
   display: flex;
@@ -81,7 +98,7 @@ p {
   align-items: center;
 }
 
-.selling_product_frame .category_top strong {
+.category_top strong {
   font-family: "jost";
   font-style: normal;
   font-weight: 500;
@@ -90,7 +107,7 @@ p {
   color: #041e42;
 }
 
-.selling_product_frame .category_top span {
+.category_top span {
   margin-bottom: 35px;
   font-family: "jost";
   font-style: normal;
@@ -100,7 +117,7 @@ p {
   color: #041e42;
 }
 
-.selling_product_frame .category_top span:hover {
+.category_top span:hover {
   border-bottom: 2px solid #041e42;
 }
 
