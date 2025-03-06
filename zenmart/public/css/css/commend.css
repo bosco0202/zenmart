@@ -12,6 +12,10 @@ p {
   margin: 0;
 }
 
+.home_page .white_svg {
+  filter: brightness(0) invert(1);
+}
+
 /* .container pagionation */
 .container .pagionation_box {
   margin-top: 30px;
@@ -152,7 +156,7 @@ p {
 }
 
 .container .product_wrapper_next_box img {
-  position: absolute;
+  position: relative;
   width: 50px;
   top: 50%;
   margin-left: -20px;
