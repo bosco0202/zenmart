@@ -291,6 +291,8 @@ p {
 }
 
 .sell_frame .sell_box_top a {
+  width: auto;
+  height: 27px;
   display: flex;
   justify-content: center;
   align-items: center;
