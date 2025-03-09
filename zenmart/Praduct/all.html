@@ -2,10 +2,337 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=S, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zenmart</title>
+    <link rel="stylesheet" href="../public/css/css/commend.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../public/css/css/product.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <h1>salom</h1>
+    <div class="navbar_frame">
+      <div class="container">
+        <div class="navbar_top">
+          <a href="">
+            <img src="../public/css/images/logo.png" alt="" class="src" />
+          </a>
+          <div class="nav_search_frame">
+            <div class="search_box">
+              <div class="category_list">
+                <select>
+                  <option selected>All Categories</option>
+                  <option>compyuter</option>
+                </select>
+              </div>
+              <input type="search" placeholder="Search Product" />
+            </div>
+            <div class="search_icon_box">
+              <img src="../public/css/images/search.svg" alt="" />
+            </div>
+          </div>
+          <div class="nav_top_menu">
+            <a href="./order/cart.html">
+              <div class="top_menu_box">
+                <div class="box_icon_box">
+                  <img
+                    src="../public/css/images/heart.svg"
+                    alt=""
+                    class="src"
+                  />
+                </div>
+                <div class="box_info_box">
+                  <span>Wishlist</span>
+                  <strong>My Items</strong>
+                </div>
+              </div>
+            </a>
+            <a href="./other/login.html">
+              <div class="top_menu_box">
+                <div class="box_icon_box">
+                  <img src="../public/css/images/user.svg" alt="" class="src" />
+                </div>
+                <div class="box_info_box">
+                  <span>Sign in</span>
+                  <strong>Account</strong>
+                </div>
+              </div>
+            </a>
+            <a href="./order/cart.html">
+              <div class="top_menu_box">
+                <div class="box_icon_box">
+                  <div class="basket_count">2</div>
+                  <img src="../public/css/images/shop.svg" alt="" class="src" />
+                </div>
+                <div class="box_info_box">
+                  <span>$200.99</span>
+                  <strong>Total</strong>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="navbar_bot">
+          <div class="navbar_bot_menu_box">
+            <div class="browse_box">
+              <img src="../public/css/images/browse.svg" alt="" />
+              <span> Brows Categories</span>
+            </div>
+            <div class="navbar_route_menu">
+              <div class="router_menu">
+                <a href="./index.html">Home</a>
+              </div>
+              <div class="router_menu">
+                <a href="./Praduct/all.html" class="active">Shop</a>
+              </div>
+              <div class="router_menu">
+                <a href="./order/cart.html">Orders</a>
+              </div>
+              <div class="router_menu">
+                <a href="./other/about.html">About</a>
+              </div>
+              <div class="router_menu">
+                <a href="./other/contact.html">Contact</a>
+              </div>
+            </div>
+            <div class="sorting_menu">
+              <span>Deal of the day</span>
+              <span>Hot Deals</span>
+              <span>Best Sellers</span>
+              <span> New Arrivals</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="shop_page">
+      <div class="category_top_frame">
+        <div class="container">
+          <div class="category_top">
+            <a href="">All Electronics</a>
+            <a href="">Smart TV</a>
+            <a href="">Laptops</a>
+            <a href="">Call Phones</a>
+            <a href="">Camera & PHoto</a>
+            <a href="">POrtable Audio</a>
+            <a href="">compyutes</a>
+            <a href="">iPad & Tables</a>
+            <a href="">Pc Gamming</a>
+            <a href="">Best Sellers</a>
+            <a href="">New Arrivals</a>
+          </div>
+        </div>
+      </div>
+      <div class="header_router">
+        <span> <a href="" style="margin-left: 0px">Home </a> /</span>
+        <span><a href="">Electronics </a>/</span>
+        <span><a>Computers</a> /</span>
+        <span><a>Desktop Computers</a></span>
+      </div>
+      <div class="header_frame">
+        <div class="container">
+          <div class="content">
+            <p>Save up to $130 on select laptops</p>
+            <span
+              >All kind of products in one place. Starts from $1. Get cashbacks
+              & offers</span
+            >
+            <a href="">Shop Deals</a>
+          </div>
+          <div class="pagionation_box">
+            <div class="pagination_main">
+              <img src="../public/css/images/pagination.svg" alt="" />
+              <div class="pagination_dot">
+                <div class="dot">
+                  <div></div>
+                  <!-- <img src="./public/css/images/dod.png" /> -->
+                </div>
+                <div class="dot">
+                  <!-- divni ozi bolsa dot boladi img shatmas -->
+                  <div></div>
+                  <!-- <img src="./public/css/images/dod.png" /> -->
+                </div>
+                <div class="dot active">
+                  <div></div>
+                  <!-- <img src="./public/css/images/dod.png" /> -->
+                </div>
+                <div class="dot">
+                  <div></div>
+                  <!-- <img src="./public/css/images/dod.png" /> -->
+                </div>
+                <div class="dot">
+                  <div></div>
+                  <!-- <img src="./public/css/images/dod.png" /> -->
+                </div>
+              </div>
+              <img
+                src="../public/css/images/pagination.svg"
+                alt=""
+                style="transform: scaleX(-1)"
+              />
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="sell_frame">
+      <div class="container">
+        <div class="sell_box_top">
+          <h1>Sop by category</h1>
+          <a href="./Praduct/all.html">Wiew All Categories</a>
+        </div>
+        <div class="sell_box_bot">
+          <div class="sell_box_bot_material">
+            <div class="sell_box_bot_img">
+              <img src="../public/css/images/sell/tvled.png" />
+            </div>
+            <span>TVs, Home Theatre, and Accessories</span>
+          </div>
+          <div class="sell_box_bot_material">
+            <div class="sell_box_bot_img">
+              <img src="../public/css/images/sell/computer.png" />
+            </div>
+            <span>Computers, Tablets</span>
+          </div>
+          <div class="sell_box_bot_material">
+            <div class="sell_box_bot_img">
+              <img src="../public/css/images/sell/smart home.png" />
+            </div>
+            <span>Smart Home</span>
+          </div>
+          <div class="sell_box_bot_material">
+            <div class="sell_box_bot_img">
+              <img src="../public/css/images/sell/speakers.png" />
+            </div>
+            <span>Headphones and Portable Speakers</span>
+          </div>
+          <div class="sell_box_bot_material">
+            <div class="sell_box_bot_img">
+              <img src="../public/css/images/sell/iphone11.png" />
+            </div>
+            <span>Call Phones and Accessories</span>
+          </div>
+          <div class="sell_box_bot_material">
+            <div class="sell_box_bot_img">
+              <img src="../public/css/images/sell/jossy.png" />
+            </div>
+            <span>Video Games, Consoles, and Accessories</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer_frame">
+      <div class="container">
+        <div class="footer_top">
+          <div class="footer_contact_box">
+            <span class="footer_spec_title">Contact Us</span>
+            <div class="footer_contact_main">
+              <img src="..//public/css/images/footer/phone-call.svg" alt="" />
+              <div>
+                <strong>Mondey-Friday: 08am-9pm</strong>
+                <span>+(1) 123 456 7890</span>
+              </div>
+            </div>
+            <div class="footer_contact_main">
+              <img src="..//public/css/images/footer/Vector.png" alt="" />
+              <div>
+                <strong>Need help with your order?</strong>
+                <span>support@zenmart.com</span>
+              </div>
+            </div>
+          </div>
+          <div class="footer_support">
+            <span class="footer_spec_title">Customer Support</span>
+            <a href="">Cantact Us</a>
+            <a href="">Help Centre</a>
+            <a href="">Returns & Exchanges</a>
+            <a href="">Best By Finans</a>
+            <a href="">Best Buy Gift Card</a>
+          </div>
+          <div class="footer_support">
+            <span class="footer_spec_title">Services</span>
+            <a href="">Gree Squad</a>
+            <a href="">In-Home Advisor</a>
+            <a href="">Tran-in Program</a>
+            <a href="">Electronics Recycling</a>
+            <a href="">Best Buy Health</a>
+          </div>
+          <div class="footer_media_box">
+            <div class="footer_media_main">
+              <span class="footer_spec_title">Follow us</span>
+              <div class="media_box">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
+            </div>
+            <div class="footer_media_main" style="margin-top: 30px">
+              <span class="footer_spec_title">Mobile</span>
+              <div class="mobile_app_box">
+                <img src="..//public/css/images/footer/apple 1.png" alt="" />
+                <span>IOS App</span>
+              </div>
+              <div class="mobile_app_box">
+                <img src="..//public/css/images/footer/XMLID.png" alt="" />
+                <span>Android App</span>
+              </div>
+            </div>
+          </div>
+          <div class="footer_media_box">
+            <div class="footer_media_main" style="margin-top: 130px">
+              <span class="footer_spec_title">We accapt</span>
+              <div class="mobile_app_box" style="margin-top: 20px">
+                <div class="card_box">
+                  <img src="..//public/css/images/footer/visa.png" alt="" />
+                  <img src="..//public/css/images/footer/master.png" alt="" />
+                  <img src="..//public/css/images/footer/pay.png" alt="" />
+                  <img src="..//public/css/images/footer/pay2.png" alt="" />
+                  <img src="..//public/css/images/footer/p.png" alt="" />
+                  <img src="..//public/css/images/footer/amex.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer_bot">
+          <div class="footer_main">
+            <div class="footer_bottom_left">
+              <span>2022 Zenmart. All Right Reserved</span>
+              <span class="span_bot">Privac Terms Sitemap</span>
+            </div>
+            <div class="footer_bottom_right">
+              <div class="footer_select_box">
+                <span>Currency</span>
+                <select name="">
+                  <option value="" selected>USD</option>
+                  <option value="" selected>UZS</option>
+                  <option value="" selected>KRW</option>
+                </select>
+              </div>
+              <div class="footer_select_box">
+                <span>Language</span>
+                <select name="">
+                  <option value="" selected>Uzbek</option>
+                  <option value="" selected>English</option>
+                  <option value="" selected>Korean</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

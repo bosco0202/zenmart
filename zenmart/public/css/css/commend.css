@@ -20,6 +20,29 @@ p {
   filter: brightness(0) invert(1);
 }
 
+/* header router */
+
+.header_router {
+  width: 1320px;
+  height: 22px;
+  margin: 10px 0px;
+}
+
+.header_router a {
+  margin: 0px 10px;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgb(4, 30, 66);
+  cursor: pointer;
+}
+
+.header_router a:hover {
+  color: #f5c34b;
+}
+
 /* .container pagionation */
 .container .pagionation_box {
   margin-top: 30px;
@@ -138,7 +161,7 @@ p {
 }
 
 .container .category_top a {
-  margin-left: 30px;
+  /* margin-left: 30px; */
   font-family: var(--font);
   font-style: normal;
   font-weight: 500;
@@ -231,8 +254,24 @@ p {
   color: #041e42;
 }
 
-/* saxifalik */
-/* .sell_frame .container .sell_box_top {
+/* sell frame */
+.sell_frame {
+  margin-top: 90px;
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  /* background-color: yellow; */
+}
+
+.sell_frame .container {
+  flex-direction: column;
+  /* background-color: yellow; */
+}
+
+.sell_frame .container .sell_box_top {
   width: 100%;
   height: auto;
 
@@ -243,7 +282,7 @@ p {
 }
 
 .sell_frame .sell_box_top h1 {
-  font-family: "jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 28px;
@@ -252,8 +291,12 @@ p {
 }
 
 .sell_frame .sell_box_top a {
-  margin-bottom: 45px;
-  font-family: "jost";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* margin-bottom: 30px; */
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -263,7 +306,51 @@ p {
 
 .sell_frame .sell_box_top a:hover {
   border-bottom: 2px solid #041e42;
-} */
+}
+
+.sell_frame .container .sell_box_bot {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sell_frame .sell_box_bot .sell_box_bot_material {
+  width: 142px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.sell_frame .sell_box_bot_material .sell_box_bot_img {
+  width: 100%;
+  height: 150px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #eaeaea;
+  border-radius: 50%;
+}
+
+.sell_frame .sell_box_bot_material span {
+  margin-top: 20px;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+
+  text-align: center;
+
+  color: #041e42;
+}
 
 .container {
   position: relative;
