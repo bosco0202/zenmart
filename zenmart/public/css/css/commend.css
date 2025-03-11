@@ -253,7 +253,53 @@ p {
   text-decoration-line: line-through;
   color: #041e42;
 }
+.sell_wrapper .sell_product_boxes {
+  width: 1300px;
+  height: 400px;
 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sell_product_boxes .sell_product_box {
+  width: 220px;
+  height: 392px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+}
+
+.sell_product_box .product_img {
+  width: 100%;
+  height: 220px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sell_product_boxes .product_content_box {
+  width: 179px;
+  height: 149px;
+
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.sell_product_boxes .product_content_box a {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #041e42;
+}
 /* sell frame */
 .sell_frame {
   margin-top: 90px;

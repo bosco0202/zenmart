@@ -168,22 +168,7 @@
   justify-content: space-between;
 }
 
-.sell_frame {
-  margin-top: 90px;
-  position: relative;
-  width: 100%;
-  height: 347px;
-
-  display: flex;
-  justify-content: center;
-  /* background-color: yellow; */
-}
-
-.sell_frame .container {
-  flex-direction: column;
-  /* background-color: yellow; */
-}
-
+/* bremd frame */
 .shop_page .brands_frame {
   position: relative;
   margin-top: 90px;
@@ -251,6 +236,7 @@
   cursor: pointer;
 }
 
+/* sell frame */
 .shop_page .sell_frame {
   position: relative;
   width: 100%;
@@ -328,6 +314,7 @@
 .sell_product_boxes .product_content_box {
   width: 179px;
   height: 149px;
+  padding: 5px 22px;
 
   display: flex;
   flex-direction: column;
@@ -341,4 +328,173 @@
   font-size: 15px;
   line-height: 22px;
   color: #041e42;
+}
+
+/* loptops frame */
+.shop_page .loptops_frame {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.loptops_frame .container {
+  margin-top: 90px;
+  width: 1320px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.loptops_frame .container .category_tops {
+  width: 100%;
+  height: 83px;
+
+  display: flex;
+  flex-direction: column;
+
+  border-bottom: 1px solid #eaeaea;
+}
+
+.loptops_frame .category_tops strong {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  color: rgb(4, 30, 66);
+}
+
+.loptops_frame .category_tops span {
+  margin-bottom: 20px;
+
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgb(4, 30, 66);
+}
+
+.loptops_frame .container .category_bottom_boxs {
+  margin-top: 20px;
+  width: 350px;
+  height: 36px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  border: none;
+}
+
+.loptops_frame .category_select_box select {
+  width: 97px;
+  height: 35px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(243, 245, 246);
+
+  border: none;
+  border-radius: 20px;
+}
+
+.loptops_frame .category_select_box option {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #041e42;
+}
+
+.loptops_frame .container .sell_product_boxes {
+  position: relative;
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.loptops_frame .sell_product_boxes .sell_product_box {
+  width: 260px;
+  height: 440px;
+}
+
+.loptops_frame .sell_product_box .product_img {
+  width: 253px;
+  height: 280px;
+  padding: 25px 18px;
+}
+
+.loptops_frame .container .sell_product_box .product_content_box {
+  width: 250px;
+  height: 148px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.loptops_frame .container .pagionation_box {
+  margin-top: 70px;
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.loptops_frame .container .pagionation_box .pagination_main {
+  width: 460px;
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.loptops_frame .pagination_main img {
+  width: 50px;
+  height: 50px;
+
+  border: 1px solid #eaeaea;
+  border-radius: 50%;
+}
+
+.loptops_frame .pagination_dot {
+  width: 340px;
+  height: 40px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.loptops_frame .pagination_dot .dot {
+  width: 40px;
+  height: 40px;
+}
+
+.loptops_frame .pagination_dot .dot.active {
+  border: none;
+  background-color: #f5c34b;
+  border-radius: 50%;
+}
+
+.loptops_frame .pagination_dot .dot:hover {
+  border: none;
+  background-color: #eaeaea;
+  border-radius: 50%;
 }
