@@ -1,4 +1,4 @@
-.shop_page {
+.shop_page_ {
   position: relative;
   width: 100%;
   height: auto;
@@ -8,33 +8,32 @@
   align-items: center;
 }
 
-.shop_page .category_top_frame {
+.shop_page_ .category_top_frame {
   position: relative;
-  /* margin-top: 47px; */
   width: 100%;
-  height: 50px;
+  height: auto;
 
   display: flex;
   flex-direction: row;
   justify-content: center;
-
-  border-bottom: 1px solid rgb(154, 172, 196);
 }
 
-.shop_page .category_top_frame .container {
+.shop_page_ .category_top_frame .container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
-.shop_page .container .category_top {
+.shop_page_ .container .category_top {
   width: 100%;
-  height: 22px;
+  height: 50px;
+  margin: 20px 0;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.shop_page .container .category_top a {
+
+.shop_page_ .container .category_top a {
   left: 0px;
   font-family: var(--font);
   font-style: normal;
@@ -45,11 +44,34 @@
   cursor: pointer;
 }
 
-.shop_page .container .category_top a:hover {
+.shop_page_ .container .category_top a:hover {
   border-bottom: 2px solid rgb(4, 30, 66);
 }
 
-.shop_page .header_frame {
+.shop_page_ .container .header_router {
+  width: 35%;
+  height: 40px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.shop_page_ .header_router a {
+  margin: 0px 10px;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgb(4, 30, 66);
+  cursor: pointer;
+}
+
+.shop_page_ .header_router a:hover {
+  color: #f5c34b;
+}
+.shop_page_ .header_frame {
   position: relative;
   width: 100%;
   height: auto;
@@ -169,7 +191,7 @@
 }
 
 /* bremd frame */
-.shop_page .brands_frame {
+.shop_page_ .brands_frame {
   position: relative;
   margin-top: 90px;
   width: 100%;
@@ -237,7 +259,7 @@
 }
 
 /* sell frame */
-.shop_page .sell_frame {
+.shop_page_ .sell_frame {
   position: relative;
   width: 100%;
   height: auto;
@@ -247,11 +269,11 @@
   justify-content: center;
 }
 
-.shop_page .sell_frame .container {
+.shop_page_ .sell_frame .container {
   flex-direction: column;
 }
 
-.shop_page .container .category_top {
+.shop_page_ .container .category_top {
   width: 100%;
   height: auto;
 
@@ -331,7 +353,7 @@
 }
 
 /* loptops frame */
-.shop_page .loptops_frame {
+.shop_page_ .loptops_frame {
   position: relative;
   width: 100%;
   height: auto;
