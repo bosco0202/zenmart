@@ -27,6 +27,15 @@ p {
   display: flex;
   /* justify-content: center; */
 }
+/* HEADER ROUTER */
+/* .container .header_router a {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgb(4, 30, 66);
+} */
 
 /* /* categoryni va routni */
 .chosen_page .category_top_frame {
@@ -491,7 +500,7 @@ p {
   /* background-color: red; */
 }
 
-.navbar_frame.navbar_top > a img {
+.navbar_frame .navbar_top > a img {
   width: 117px;
   margin-right: 76px;
   height: 36px;
@@ -671,7 +680,7 @@ p {
 
 .navbar_frame .navbar_bot .navbar_bot_menu_box {
   margin-top: 10px;
-  width: 100%;
+  width: auto;
   height: auto;
 
   display: flex;
@@ -708,7 +717,7 @@ p {
 
 .navbar_frame .navbar_bot_menu_box .navbar_route_menu {
   margin-left: 8px;
-  margin-right: 222px;
+  margin-right: 280px;
   width: auto;
   height: 40px;
 
