@@ -671,7 +671,7 @@ p {
 
 .navbar_frame .navbar_bot .navbar_bot_menu_box {
   margin-top: 10px;
-  width: auto;
+  width: 100%;
   height: auto;
 
   display: flex;
@@ -708,7 +708,7 @@ p {
 
 .navbar_frame .navbar_bot_menu_box .navbar_route_menu {
   margin-left: 8px;
-  margin-right: 280px;
+  margin-right: 222px;
   width: auto;
   height: 40px;
 

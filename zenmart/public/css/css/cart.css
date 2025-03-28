@@ -1,0 +1,456 @@
+.cart_page {
+  position: relative;
+  /* margin-top: 60px; */
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.cart_page .cart_frame {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart_frame .container {
+  width: 1320px;
+  height: 987px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER ROUTER QISMI */
+.cart_frame .container .header_router a {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgb(4, 30, 66);
+}
+
+/* CART TOP BOXES */
+.cart_frame .container .cart_top_boxes {
+  margin-top: 60px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart_frame .cart_top_boxes h1 {
+  width: 205px;
+  height: 40px;
+  /* margin: 0px 10px; */
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  color: rgb(4, 30, 66);
+  /* cursor: pointer; */
+}
+
+.cart_frame .cart_top_boxes span {
+  margin-top: 30px;
+  width: 305px;
+  height: 22px;
+  /* margin: 0px 10px; */
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgb(0, 0, 0);
+  /* cursor: pointer; */
+}
+
+.cart_frame .cart_top_boxes img {
+  margin-top: 10px;
+  width: 425px;
+  height: 40px;
+  cursor: pointer;
+}
+
+/* CART TABLE QISMI */
+.cart_frame .container .cart_table {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.cart_frame .cart_table .cart_left {
+  width: 872px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+}
+
+.cart_frame .cart_left .table_top {
+  width: 100%;
+  height: 70px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  background-color: #eaeaea;
+}
+
+.cart_frame .table_top .table_top_tr {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cart_frame .table_top_tr .th_Praduct {
+  padding: 10px;
+  width: 339px;
+  height: 22px;
+  text-align: left;
+}
+
+.cart_frame .table_top_tr th {
+  width: 71px;
+  height: 22px;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgb(4, 30, 66);
+}
+
+.cart_frame .cart_left .table_bott {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart_frame .table_bott tr {
+  padding: 10px 0;
+  width: 100%;
+  height: 153px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+  border-top: 1px solid #eaeaea;
+}
+
+.cart_frame tr .td_image {
+  width: 359px;
+  height: 153px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.cart_frame .td_image img {
+  margin: 0 20px 20px 20px;
+  width: 112px;
+  height: 120px;
+}
+
+.cart_frame .td_image .td_content {
+  width: 192px;
+  height: 122px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: normal;
+}
+
+.cart_frame .td_content span {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgb(4, 30, 66);
+}
+
+.cart_frame .table_bott .td_num {
+  margin-left: 30px;
+  width: 60px;
+  height: 28px;
+
+  text-align: center;
+  border: none;
+}
+
+.cart_frame .table_bott .td_num2 {
+  margin-left: 8px;
+  width: 60px;
+  height: 28px;
+
+  text-align: left;
+  border: none;
+}
+
+.cart_frame .table_bott .td_3 {
+  margin-left: 20px;
+  width: 102px;
+  height: 33px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  border-radius: 25px;
+  border: 1px solid #eaeaea;
+}
+
+.cart_frame .td_3 span {
+  width: 27px;
+  height: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgb(4, 30, 66);
+  border: none;
+}
+
+.cart_frame .td_3 span:hover {
+  border: none;
+  border-radius: 50%;
+  background-color: #eaeaea;
+  cursor: pointer;
+}
+
+.cart_frame .table_bott .td_x {
+  margin-left: 20px;
+  width: 60px;
+  height: 28px;
+
+  text-align: left;
+  border: none;
+}
+
+/* CART TOTAL QISMI */
+
+.cart_frame .cart_table .cart_total {
+  position: relative;
+  margin-left: 40px;
+  padding: 30px;
+  width: auto;
+  height: 410px;
+
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+}
+
+.cart_frame .cart_total h1 {
+  width: 95px;
+  height: 29px;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: rgb(4, 30, 66);
+}
+
+.cart_frame .cart_total .cart_main {
+  margin-top: 20px;
+  padding: 0 0 10px 0;
+  width: 366px;
+  height: 167px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  border-bottom: 1px solid #eaeaea;
+}
+
+.cart_frame .cart_main .cart_main_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  color: rgb(4, 30, 66);
+}
+
+.cart_frame .cart_main .cart_main_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: end;
+
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  color: rgb(4, 30, 66);
+}
+
+.cart_frame .cart_main .cart_main_right p {
+  color: red;
+}
+
+.cart_frame .cart_total .cart_main_bott {
+  margin-top: 15px;
+  width: auto;
+  height: 30px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  color: rgb(4, 30, 66);
+}
+.cart_frame .cart_total a {
+  margin-top: 40px;
+  width: auto;
+  height: 52px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(245, 195, 75);
+
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgb(4, 30, 66);
+}
+
+.cart_frame .cart_total a:hover {
+  color: white;
+}
+
+/* CART BOTT BOX QISMI */
+
+.cart_frame .container .cart_bott_box {
+  position: relative;
+  margin-top: 40px;
+  width: 847px;
+  height: 55px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cart_frame .cart_bott_box .cart_bott_box_left {
+  width: 360px;
+  height: 55px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  border: 1px dashed #eaeaea;
+}
+
+.cart_frame .cart_bott_box a {
+  width: 99px;
+  height: 22px;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgb(4, 30, 66);
+}
+
+.cart_frame .cart_bott_box a:hover {
+  border-bottom: 1px solid;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgb(4, 30, 66);
+}
+
+.cart_frame .cart_bott_box .cart_bott_box_right {
+  width: auto;
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+
+.cart_frame .cart_bott_box .cart_bott_box_right a {
+  margin-left: 20px;
+  padding: 0 30px;
+  width: auto;
+  height: 55px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgb(4, 30, 66);
+
+  border-radius: 10px;
+  border: 1px solid rgb(245, 195, 75);
+}
+
+.cart_frame .cart_bott_box .cart_bott_box_right a:hover {
+  border: none;
+  background-color: rgb(245, 195, 75);
+}
