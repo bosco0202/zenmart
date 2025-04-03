@@ -1,0 +1,240 @@
+.login_frame {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: aqua;
+}
+
+.login_frame .container {
+  margin-top: 90px;
+  width: 1320px;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: bisque;
+}
+
+.login_frame .container .login_box {
+  padding: 63px;
+  width: 744px;
+  height: 831px;
+
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border: none;
+}
+
+.login_frame .login_box strong {
+  width: 440px;
+  height: 37px;
+
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  color: rgb(4, 30, 66);
+}
+
+.login_frame .login_box .double_input_box {
+  margin-top: 55px;
+  width: 608px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.login_frame .double_input_box .double_box {
+  width: 100%;
+  height: 115px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.login_frame .double_box label {
+  margin-top: 26px;
+  width: 192px;
+  height: 28px;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgb(4, 30, 66);
+}
+
+.login_frame .double_box input {
+  margin-top: 15px;
+  width: 608px;
+  height: 72px;
+
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+}
+
+.login_frame .login_box .order_check_box {
+  margin-top: 22px;
+  width: 608px;
+  height: 28px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.login_frame .order_check_box input {
+  width: 26px;
+  height: 21px;
+}
+
+.login_frame .order_check_box p {
+  margin-left: 3px;
+  width: 164px;
+  height: 28px;
+
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgb(4, 30, 66);
+}
+
+.login_frame .order_check_box a span {
+  margin-left: 262px;
+  width: 138px;
+  height: 28px;
+  text-align: center;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgb(68, 50, 151);
+}
+
+.login_frame .login_box .bott_login {
+  margin-top: 30px;
+  width: 608px;
+  height: 52px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(245, 195, 75);
+  border: none;
+  border-radius: 8px;
+}
+
+.login_frame .bott_login button {
+  width: 49pxpx;
+  height: 22px;
+  text-align: center;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  color: rgb(68, 50, 151);
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(245, 195, 75);
+}
+
+.login_frame .bott_login button:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.login_frame .login_box .login_main {
+  margin: 30px 0;
+  width: 608px;
+  height: 28px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_frame .login_main span {
+  width: auto;
+  height: 28px;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgb(4, 30, 66);
+}
+
+.login_frame .login_main strong {
+  width: auto;
+  height: 28px;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  color: rgb(4, 30, 66);
+}
+
+.login_frame .login_box .horizantal {
+  position: relative;
+  margin: 30px 0;
+  width: 608px;
+  height: 1px;
+
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #eaeaea;
+}
+
+.login_frame .horizantal span {
+  position: absolute;
+  left: 288px;
+  bottom: -11px;
+  width: 30px;
+  height: 28px;
+
+  text-align: center;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgb(4, 30, 66);
+  background-color: #ffffff;
+}
+
+.login_frame .login_box .login_bott {
+  margin-top: 30px;
+  width: 608px;
+  height: 59px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.login_frame .login_bott i {
+  width: 132px;
+  height: 59px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
