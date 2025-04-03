@@ -27,7 +27,7 @@
   justify-content: center;
 }
 
-.contact_map iframe {
+.contact_frame .contact_map iframe {
   width: 1920px;
   height: 600px;
 }
@@ -41,7 +41,7 @@
   flex-direction: column;
 }
 
-.container .contact_top {
+.contact_frame .container .contact_top {
   position: relative;
   padding: 40px 0 60px 0;
   width: 100%;
@@ -53,7 +53,7 @@
   border-bottom: 1px solid #eaeaea;
 }
 
-.contact_top .contact_left_box {
+.contact_frame .contact_top .contact_left_box {
   width: 545px;
   height: 405px;
 
@@ -61,7 +61,7 @@
   flex-direction: column;
 }
 
-.contact_left_box h1 {
+.contact_frame .contact_left_box h1 {
   margin-bottom: 60px;
   width: auto;
   height: 40px;
@@ -73,7 +73,7 @@
   color: rgb(4, 30, 66);
 }
 
-.contact_left_box span {
+.contact_frame .contact_left_box span {
   width: auto;
   height: 28x;
   font-family: var(--font);
@@ -84,7 +84,7 @@
   color: rgb(4, 30, 66);
 }
 
-.contact_left_box .contact_main {
+.contact_frame .contact_left_box .contact_main {
   margin-top: 20px;
   padding: 10px 5px;
   width: 325px;
@@ -94,14 +94,14 @@
   flex-direction: row;
 }
 
-.contact_main img {
+.contact_frame .contact_main img {
   margin-right: 20px;
   width: 36px;
   height: 30px;
   font-size: 30px;
 }
 
-.contact_main .main_bott {
+.contact_frame .contact_main .main_bott {
   width: auto;
   height: 54px;
 
@@ -110,7 +110,7 @@
   justify-content: space-between;
 }
 
-.main_bott strong {
+.contact_frame .main_bott strong {
   width: auto;
   height: 18px;
   font-family: var(--font);
@@ -121,7 +121,7 @@
   color: rgb(4, 30, 66);
 }
 
-.main_bott span {
+.contact_frame .main_bott span {
   width: auto;
   height: 28x;
   font-family: var(--font);
@@ -132,7 +132,7 @@
   color: rgb(4, 30, 66);
 }
 
-.contact_left_box .media_main {
+.contact_frame .contact_left_box .media_main {
   width: 1005px;
   height: 51px;
   display: flex;
@@ -140,7 +140,7 @@
   justify-content: space-between;
 }
 
-.media_main strong {
+.contact_frame .media_main strong {
   width: auto;
   height: 18px;
   font-family: var(--font);
@@ -151,7 +151,7 @@
   color: rgb(4, 30, 66);
 }
 
-.media_main .media_box {
+.contact_frame .media_main .media_box {
   width: 110px;
   height: auto;
 
@@ -160,7 +160,7 @@
   justify-content: space-between;
 }
 
-.contact_top .contact_right_box {
+.contact_frame .contact_top .contact_right_box {
   position: relative;
   width: 650px;
   height: auto;
@@ -169,7 +169,7 @@
   flex-direction: column;
 }
 
-.contact_right_box .double_input_box {
+.contact_frame .contact_right_box .double_input_box {
   width: 100%;
   height: 88px;
 
@@ -178,7 +178,7 @@
   justify-content: space-between;
 }
 
-.double_input_box .double_box {
+.contact_frame .double_input_box .double_box {
   width: 310px;
   height: 88px;
 
@@ -186,7 +186,7 @@
   flex-direction: column;
 }
 
-.double_box label,
+.contact_frame .double_box label,
 .textarea_box label,
 .input_box label {
   width: auto;
@@ -199,7 +199,7 @@
   color: rgb(4, 30, 66);
 }
 
-.double_box input {
+.contact_frame .double_box input {
   margin-top: 5px;
   width: 100%;
   height: 55px;
@@ -208,7 +208,7 @@
   border-radius: 8px;
 }
 
-.contact_right_box .input_box {
+.contact_frame .contact_right_box .input_box {
   margin-top: 25px;
   width: 100%;
   height: 88px;
@@ -218,7 +218,7 @@
   justify-content: space-between;
 }
 
-.input_box input {
+.contact_frame .input_box input {
   margin-top: 5px;
   width: 100%;
   height: 55px;
@@ -227,7 +227,7 @@
   border-radius: 8px;
 }
 
-.contact_right_box .textarea_box {
+.contact_frame .contact_right_box .textarea_box {
   margin-top: 25px;
   width: 100%;
   height: 295px;
@@ -237,7 +237,7 @@
   justify-content: space-between;
 }
 
-.textarea_box textarea {
+.contact_frame .textarea_box textarea {
   margin-top: 5px;
   width: 100%;
   height: 261px;
@@ -246,7 +246,7 @@
   border-radius: 8px;
 }
 
-.contact_right_box a {
+.contact_frame .contact_right_box a {
   margin-top: 25px;
   width: 168px;
   height: 55px;
@@ -254,7 +254,7 @@
   align-items: center;
 }
 
-a button {
+.contact_frame a button {
   margin-top: 25px;
   width: 168px;
   height: 55px;
@@ -270,12 +270,12 @@ a button {
   color: rgb(4, 30, 66);
 }
 
-a button:hover {
+.contact_frame a button:hover {
   color: #ffffff;
   cursor: pointer;
 }
 
-.container .contact_bott {
+.contact_frame .container .contact_bott {
   padding: 60px 0;
   position: relative;
   width: 100%;
@@ -287,7 +287,7 @@ a button:hover {
   border-bottom: 1px solid #eaeaea;
 }
 
-.contact_bott .contact_bott_left {
+.contact_frame .contact_bott .contact_bott_left {
   position: relative;
   padding: 5px 0;
   width: 440px;
@@ -298,7 +298,7 @@ a button:hover {
   justify-content: space-between;
 }
 
-.contact_bott_left h1 {
+.contact_frame .contact_bott_left h1 {
   width: 440px;
   height: 80px;
   font-family: var(--font);
@@ -309,7 +309,7 @@ a button:hover {
   color: rgb(4, 30, 66);
 }
 
-.contact_bott_left span {
+.contact_frame .contact_bott_left span {
   width: 440px;
   height: 56px;
   font-family: var(--font);
@@ -320,7 +320,7 @@ a button:hover {
   color: rgb(4, 30, 66);
 }
 
-.contact_bott .contact_bott_right {
+.contact_frame .contact_bott .contact_bott_right {
   width: 701px;
   height: auto;
 
@@ -329,7 +329,7 @@ a button:hover {
   justify-content: space-between;
 }
 
-.contact_bott_right .bott_right {
+.contact_frame .contact_bott_right .bott_right {
   padding: 20px 0;
   width: 301px;
   height: 185ox;
@@ -338,7 +338,7 @@ a button:hover {
   flex-direction: column;
 }
 
-.bott_right p {
+.contact_frame .bott_right p {
   margin-top: 6px;
   width: auto;
   height: 26px;
@@ -350,7 +350,7 @@ a button:hover {
   color: rgb(4, 30, 66);
 }
 
-.bott_right span {
+.contact_frame .bott_right span {
   margin-top: 6px;
   width: auto;
   height: 28px;
@@ -362,7 +362,7 @@ a button:hover {
   color: rgb(4, 30, 66);
 }
 
-.bott_right a {
+.contact_frame .bott_right a {
   width: 59px;
   height: 22px;
   font-family: var(--font);
@@ -373,7 +373,210 @@ a button:hover {
   color: rgb(4, 30, 66);
 }
 
-.bott_right a:hover {
+.contact_frame .bott_right a:hover {
   border-bottom: 1px solid rgb(4, 30, 66);
   cursor: pointer;
+}
+
+.contact_frame .container .contact_foot {
+  margin: 60px 0 90px 0;
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact_frame .contact_foot h1 {
+  width: 631px;
+  height: 40px;
+  text-align: center;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  color: rgb(4, 30, 66);
+}
+
+.contact_frame .contact_foot .contact_question_box {
+  margin-top: 30px;
+  width: 1083px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  /* border-bottom: 1px solid #eaeaea; */
+}
+
+.contact_frame .contact_foot .contact_question_box:active {
+  position: relative;
+  width: 1083px;
+  height: 129px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  transition-property: ;
+  transition-duration: 1s;
+  /* border-bottom: 1px solid #eaeaea; */
+  cursor: pointer;
+}
+
+.contact_frame .contact_question_box:hover {
+  width: 1083px;
+  height: 129px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 10px;
+
+  transition-duration: 1s;
+  /* border-bottom: 1px solid #eaeaea; */
+  cursor: pointer;
+}
+
+.contact_frame .contact_question_box .question_left {
+  width: 100%;
+  height: 70px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact_frame .question_left .question_left_top {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  opacity: 1;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.contact_frame .question_left_top h1 {
+  width: 40px;
+  height: 40px;
+
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  color: rgb(4, 30, 66);
+}
+
+.contact_frame .question_left_top p {
+  margin-left: 8px;
+  padding: 8px 0;
+  width: 390px;
+  height: 40px;
+
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: rgb(4, 30, 66);
+}
+
+.contact_frame .contact_question_box .question_lorem {
+  position: absolute;
+  width: 1083px;
+  height: 55px;
+  opacity: 0;
+
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgb(4, 30, 66);
+  border-bottom: 1px solid #eaeaea;
+}
+
+.contact_frame .horizantal {
+  border-bottom: 1px solid #eaeaea;
+}
+
+.contact_frame .contact_question_box:active .question_lorem {
+  position: absolute;
+  margin-top: 40px;
+  width: 1083px;
+  height: 55px;
+  opacity: 1;
+
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgb(4, 30, 66);
+}
+
+.contact_frame .contact_question_box:hover .question_lorem {
+  position: absolute;
+  margin-top: 40px;
+  width: 1083px;
+  height: 55px;
+  opacity: 1;
+
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgb(4, 30, 66);
+}
+
+.contact_frame .question_left .question_right {
+  width: 20px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_frame .question_right span {
+  position: absolute;
+  opacity: 1;
+  width: 17px;
+  height: 15px;
+  font-size: 16;
+  text-align: center;
+  background-color: #ffffff;
+  color: rgb(4, 30, 66);
+}
+
+.contact_frame .question_left .question_right span:hover {
+  position: absolute;
+  opacity: -1;
+  width: 17px;
+  height: 15px;
+  font-size: 16;
+  text-align: center;
+  background-color: #ffffff;
+  color: rgb(4, 30, 66);
+}
+
+.contact_frame .question_right p {
+  position: absolute;
+  opacity: -1;
+  width: 17px;
+  height: 15px;
+  font-size: 16;
+  text-align: center;
+  background-color: #ffffff;
+  color: rgb(4, 30, 66);
+}
+
+.contact_frame .question_right p:hover {
+  position: absolute;
+  opacity: 2;
+  width: 17px;
+  height: 15px;
+  font-size: 16;
+  text-align: center;
+  background-color: #ffffff;
+  color: rgb(4, 30, 66);
 }
