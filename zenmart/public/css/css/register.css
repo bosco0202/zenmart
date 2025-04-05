@@ -6,7 +6,6 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: aqua;
 }
 
 .login_frame .container {
@@ -17,13 +16,12 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: bisque;
 }
 
-.container .login_box {
+.login_frame .container .login_box {
   padding: 63px;
   width: 744px;
-  height: 831px;
+  height: auto;
 
   display: flex;
   flex-direction: column;
@@ -32,7 +30,7 @@
   border: none;
 }
 
-.login_box strong {
+.login_frame .login_box strong {
   width: 440px;
   height: 37px;
 
@@ -44,7 +42,7 @@
   color: rgb(4, 30, 66);
 }
 
-.login_box .double_input_box {
+.login_frame .login_box .double_input_box {
   margin-top: 55px;
   width: 608px;
   height: auto;
@@ -52,7 +50,7 @@
   flex-direction: column;
 }
 
-.double_input_box .double_box {
+.login_frame .double_input_box .double_box {
   width: 100%;
   height: 115px;
 
@@ -60,7 +58,7 @@
   flex-direction: column;
 }
 
-.double_box label {
+.login_frame .double_box label {
   margin-top: 26px;
   width: 192px;
   height: 28px;
@@ -72,7 +70,7 @@
   color: rgb(4, 30, 66);
 }
 
-.double_box input {
+.login_frame .double_box input {
   margin-top: 15px;
   width: 608px;
   height: 72px;
@@ -81,7 +79,7 @@
   border-radius: 8px;
 }
 
-.login_box .order_check_box {
+.login_frame .login_box .order_check_box {
   margin-top: 22px;
   width: 608px;
   height: 28px;
@@ -90,12 +88,12 @@
   flex-direction: row;
 }
 
-.order_check_box input {
+.login_frame .order_check_box input {
   width: 26px;
   height: 21px;
 }
 
-.order_check_box p {
+.login_frame .order_check_box p {
   margin-left: 3px;
   width: 164px;
   height: 28px;
@@ -108,7 +106,7 @@
   color: rgb(4, 30, 66);
 }
 
-.order_check_box a span {
+.login_frame .order_check_box a span {
   margin-left: 262px;
   width: 138px;
   height: 28px;
@@ -121,7 +119,7 @@
   color: rgb(68, 50, 151);
 }
 
-.login_box .bott_login {
+.login_frame .login_box .bott_login {
   margin-top: 30px;
   width: 608px;
   height: 52px;
@@ -134,7 +132,7 @@
   border-radius: 8px;
 }
 
-.bott_login button {
+.login_frame .bott_login button {
   width: 49pxpx;
   height: 22px;
   text-align: center;
@@ -149,12 +147,12 @@
   background-color: rgb(245, 195, 75);
 }
 
-.bott_login button:hover {
+.login_frame .bott_login button:hover {
   color: #ffffff;
   cursor: pointer;
 }
 
-.login_box .login_main {
+.login_frame .login_box .login_main {
   margin: 30px 0;
   width: 608px;
   height: 28px;
@@ -165,7 +163,7 @@
   justify-content: center;
 }
 
-.login_main span {
+.login_frame .login_main span {
   width: auto;
   height: 28px;
   font-family: var(--font);
@@ -176,7 +174,7 @@
   color: rgb(4, 30, 66);
 }
 
-.login_main strong {
+.login_frame .login_main strong {
   width: auto;
   height: 28px;
   font-family: var(--font);
@@ -187,7 +185,7 @@
   color: rgb(4, 30, 66);
 }
 
-.login_box .horizantal {
+.login_frame .login_box .horizantal {
   position: relative;
   margin: 30px 0;
   width: 608px;
@@ -198,7 +196,7 @@
   border: 1px solid #eaeaea;
 }
 
-.horizantal span {
+.login_frame .horizantal span {
   position: absolute;
   left: 288px;
   bottom: -11px;
@@ -215,7 +213,7 @@
   background-color: #ffffff;
 }
 
-.login_box .login_bott {
+.login_frame .login_box .login_bott {
   margin-top: 30px;
   width: 608px;
   height: 59px;
@@ -225,7 +223,7 @@
   justify-content: space-between;
 }
 
-.login_bott i {
+.login_frame .login_bott i {
   width: 132px;
   height: 59px;
 
