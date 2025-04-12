@@ -1,0 +1,148 @@
+.checkoutProduct_page {
+  margin-top: 30px;
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.checkoutProduct_page .container {
+  margin-bottom: 150px;
+  padding: 0 50px;
+  box-sizing: border-box;
+  width: 1320px;
+  height: 983px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checkoutProduct_page .container h1 {
+  width: 238px;
+  height: 40px;
+  text-align: center;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  color: rgb(4, 30, 66);
+}
+
+.checkoutProduct_page .container .product_table {
+  margin-top: 30px;
+  width: 100%;
+  height: 428px;
+  border-collapse: collapse;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  background-color: antiquewhite;
+}
+
+.checkoutProduct_page .product_table thead {
+  width: 100%;
+  height: 70px;
+  background-color: #f3f5f6;
+}
+
+.checkoutProduct_page .table_top th {
+  padding: 0 0 0 20px;
+  width: auto;
+  height: 28px;
+  text-align: left;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgb(4, 30, 66);
+}
+
+.checkoutProduct_page .product_table tbody {
+  width: 100%;
+  height: 70px;
+  background-color: #ffffff;
+}
+
+.checkoutProduct_page tbody .table_bott {
+  position: relative;
+  width: 100%;
+  height: 30px;
+
+  border-bottom: 1px solid #f3f5f6;
+}
+
+.checkoutProduct_page tbody .table_bott:hover {
+  background-color: #c0d5df;
+}
+
+.checkoutProduct_page .table_bott td {
+  padding-left: 20px;
+  width: auto;
+  height: 70px;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgb(4, 30, 66);
+}
+
+.checkoutProduct_page td span {
+  position: absolute;
+  top: 33px;
+
+  width: auto;
+  height: 70px;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: rgb(4, 30, 66);
+}
+
+.checkoutProduct_page .table_bott .action {
+  width: auto;
+  height: 40px;
+}
+
+.checkoutProduct_page .action img {
+  width: 36px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.checkoutProduct_page .container .a_bott {
+  margin-top: 30px;
+  position: relative;
+  width: 100%;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkoutProduct_page .a_bott button:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.checkoutProduct_page .a_bott button {
+  position: absolute;
+  right: 1px;
+  width: 154px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f5c34b;
+  border: none;
+  border-radius: 8px;
+}
