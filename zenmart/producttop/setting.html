@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./zenmart/public/css/css/setting.css" />
+    <link rel="stylesheet" href="../public/css/css/setting.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -21,9 +21,281 @@
     />
   </head>
   <body>
-    <div class="setting_frame">
-      <div class="container">
-        <div class="setting_top"></div>
+    <div class="setting_page">
+      <div class="nav_frame">
+        <div class="logo_box">
+          <div class="logo_boxes">
+            <img class="img_top" src="../public/css/images/bar1.png" alt="" />
+            <img
+              class="img_bott"
+              src="../public/css/images/Zenmart2.png"
+              alt=""
+            />
+          </div>
+
+          <div class="search_box">
+            <input
+              class="search-input"
+              type="search"
+              placeholder="Search samthing"
+            />
+            <!-- <img src="..//public/css/images/search.svg" alt="" /> -->
+          </div>
+        </div>
+        <div class="nav_icon_box">
+          <a href=""> <i class="fa-regular fa-user"></i></a>
+          <a href=""><i class="fa-regular fa-envelope"></i></a>
+          <a href="">
+            <i
+              class="fa-solid fa-arrow-right-from-bracket"
+              style="transform: scaleX(-1)"
+            >
+            </i
+          ></a>
+
+          <img
+            src="../public/css/images/bsco.jpeg"
+            alt=""
+            style="width: 50px; height: 50px"
+          />
+        </div>
+      </div>
+      <div class="setting_frame">
+        <div class="setting_left">
+          <a href="">
+            <i class="fa-solid fa-folder"></i>
+            <span>Dashboard</span></a
+          >
+          <a href="">
+            <i class="fa-solid fa-folder"></i> <span>Product</span></a
+          >
+          <a href=""> <i class="fa-solid fa-folder"></i> <span>Order</span></a>
+          <a href="">
+            <i class="fa-solid fa-user-plus"></i> <span>Costumer</span></a
+          >
+          <a href=""> <i class="fa-solid fa-folder"></i> <span>Folder</span></a>
+          <a href=""> <i class="fa-solid fa-gear"></i><span>Settings</span></a>
+          <a href="">
+            <i
+              class="fa-solid fa-arrow-right-from-bracket"
+              style="transform: scaleX(-1)"
+            ></i>
+            <span>Logout</span></a
+          >
+        </div>
+        <div class="setting_right">
+          <h1>Settings</h1>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <div class="edit_box">
+            <div class="router_box">
+              <span class="active">Edit Profil</span>
+              <span>Password</span>
+              <span>Social Prosiles</span>
+              <span>Close Account</span>
+            </div>
+            <div class="img_box">
+              <img src="../public/css/images/in.png" alt="" />
+              <div class="avatar_box">
+                <strong>Your avatar</strong>
+                <span>PNG or JPG no bigger than 800px wide and tell</span>
+                <div class="avatar_icon">
+                  <img src="../public/css/images/cloud.png" alt="" />
+                  <img src="../public/css/images/delete.png" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <div class="horizantal"></div>
+
+            <div class="setting_main_box">
+              <div class="double_input_box">
+                <div class="double_box">
+                  <label for="produc_prince">Produc prince*</label>
+                  <input type="text" placeholder="$" id="produc_prince" />
+                </div>
+                <div class="double_box">
+                  <label for="product_discount">Product discount*</label>
+                  <input type="text" placeholder="" id="product_discount" />
+                </div>
+              </div>
+              <div class="double_input_box">
+                <div class="double_box">
+                  <label for="produc_prince">Produc prince*</label>
+                  <input type="text" placeholder="$" id="produc_prince" />
+                </div>
+                <div class="double_box">
+                  <label for="product_discount">Product discount*</label>
+                  <input type="text" placeholder="" id="product_discount" />
+                </div>
+              </div>
+              <div class="double_select_box">
+                <div class="double_box">
+                  <label for="product_category">Product category*</label>
+                  <select name="" id="product_category">
+                    <option value="" selected disabled>Select</option>
+                  </select>
+                </div>
+                <div class="double_box">
+                  <label for="product_status">Product Status*</label>
+                  <select name="" id="product_status">
+                    <option value="" selected disabled>Select</option>
+                  </select>
+                </div>
+              </div>
+              <div class="double_input_box">
+                <div class="double_box">
+                  <label for="produc_prince">Produc prince*</label>
+                  <input type="text" placeholder="$" id="produc_prince" />
+                </div>
+                <div class="double_box">
+                  <label for="product_discount">Product discount*</label>
+                  <input type="text" placeholder="" id="product_discount" />
+                </div>
+              </div>
+
+              <div class="textarea_box">
+                <label for="zip_code">Profile</label>
+                <textarea
+                  name=""
+                  id="textarea"
+                  cols="30"
+                  rows="10"
+                  placeholder="Order Notes"
+                >
+  Beautiful super large botanical garden - amazing it’s in NYC. Getting into the garden with my voucher was easy and seamless! Just went up to the ticket counter and went right in.
+  
+                    </textarea
+                >
+              </div>
+            </div>
+
+            <div class="update_box">
+              <a href=""><button>Update Profils</button></a>
+              <a href=""><button>Cancil</button></a>
+            </div>
+          </div>
+          <div class="password_box">
+            <div class="router_box">
+              <span>Edit Profil</span>
+              <span class="active">Password</span>
+              <span>Social Prosiles</span>
+              <span>Close Account</span>
+            </div>
+
+            <div class="double_box">
+              <label for="current_password">Current password</label>
+              <input
+                type="text"
+                placeholder="Your name "
+                id="current_password"
+              />
+            </div>
+            <div class="double_box">
+              <label for="new_password">New password</label>
+              <input type="text" placeholder="Your name " id="new_password" />
+            </div>
+            <div class="double_box">
+              <label for="conifirm_password">Conifirm New password</label>
+              <input type="text" placeholder="Your name "
+              id="conifirm_password/>
+            </div>
+
+            <div class="update_box">
+              <a href=""><button>Update Password</button></a>
+              <a href=""><button>Cancil</button></a>
+            </div>
+          </div>
+          <div class="social_box">
+            <div class="router_box">
+              <span>Edit Profil</span>
+              <span>Password</span>
+              <span class="active">Social Prosiles</span>
+              <span>Close Account</span>
+            </div>
+            <div class="setting_main_box">
+              <div class="double_input_box">
+                <div class="double_box">
+                  <label for="Facebook">Facebook</label>
+                  <input type="text" placeholder="Your name " id="Facebook" />
+                </div>
+                <div class="double_box">
+                  <label for="Instagram">Instagram</label>
+                  <input type="text" placeholder="Your name" id="Instagram" />
+                </div>
+              </div>
+              <div class="double_input_box">
+                <div class="double_box">
+                  <label for="twitter">Twitter</label>
+                  <input type="text" placeholder="Your name" id="twitter" />
+                </div>
+                <div class="double_box">
+                  <label for="Linkedin">Linkedin</label>
+                  <input type="text" placeholder="Your name " id="Linkedin" />
+                </div>
+              </div>
+            </div>
+
+            <div class="update_box">
+              <a href=""><button>Update Social</button></a>
+              <a href=""><button>Cancil</button></a>
+            </div>
+          </div>
+          <div class="close_box">
+            <div class="router_box">
+              <span>Edit Profil</span>
+              <span>Password</span>
+              <span>Social Prosiles</span>
+              <span class="active">Close Account</span>
+            </div>
+            <div class="close_content">
+              <strong>Close account</strong>
+              <span
+                >Warning. IF you close your account, you will be unsubscribed
+                from all your 5 courses, and wil lose accress forver</span
+              >
+            </div>
+
+            <div class="double_box">
+              <label for="Password">Enter Password</label>
+              <input type="text" placeholder="Your Name" id="Password" />
+            </div>
+
+            <div class="update_box">
+              <a href=""><button>Close Account</button></a>
+              <a href=""><button>Cancil</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="foot_frame">
+        <div class="foot_main">
+          <div class="foot_bottom_left">
+            <span>2022 Zenmart. All Right Reserved</span>
+            <div class="span_bott">
+              <span>Privacy</span>
+              <!-- <div class="dot"></div> -->
+              <span>Terms</span>
+              <!-- <div class="dot"></div> -->
+              <span>Sitemap</span>
+            </div>
+          </div>
+          <div class="foot_bottom_right">
+            <div class="foot_select_box">
+              <select name="">
+                <option value="" selected>USD</option>
+                <option value="" selected>UZS</option>
+                <option value="" selected>KRW</option>
+              </select>
+            </div>
+            <div class="foot_select_box">
+              <select name="">
+                <option value="" selected>Uzbek</option>
+                <option value="" selected>English</option>
+                <option value="" selected>Korean</option>
+              </select>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
